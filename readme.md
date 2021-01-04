@@ -1,4 +1,4 @@
-# YAPILI TECHNICAL TEST - Tom Bush
+# YAPILY TECHNICAL TEST - Tom Bush
 
 Please provide MARVEL_DOMAIN and PUBLIC_KEY environment variables by doing either of the following:
 - Via `.env` file at root of project. [Docs](https://www.npmjs.com/package/dotenv).
