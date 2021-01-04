@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character with data should match snapshot if data exists 1`] = `
+<Character>
+  <styled.div
+    styles="
+    margin: auto;
+    max-width: 800px;
+    position: relative;
+
+    img {
+        margin-bottom: 30px;
+    }
+"
+  >
+    <div
+      className="sc-bdfBwQ jlLvgZ"
+    >
+      <h1>
+        name
+      </h1>
+      <Image
+        dimension="landscape"
+        extension="ext"
+        path="path/"
+        width="100%"
+      >
+        Image
+      </Image>
+      <Grid
+        contentHeight={true}
+        desktop={3}
+        gap={30}
+        mobile={1}
+        tablet={2}
+      >
+        <styled.div
+          styles="
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+"
+        >
+          <div
+            className="sc-hKgILt iiApof"
+          >
+            <h1>
+              Comics
+            </h1>
+            <styled.ul
+              styles="
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+"
+            >
+              <ul
+                className="sc-gsTCUz lbbSTx"
+              >
+                <styled.li
+                  key="1"
+                  styles="
+    padding: 10px;
+    &:not(:last-of-type) {
+        border-bottom: solid 2px theme.colors.marvelRed;
+    }
+"
+                >
+                  <li
+                    className="sc-dlfnbm hiNrMd"
+                  >
+                    comic
+                  </li>
+                </styled.li>
+              </ul>
+            </styled.ul>
+          </div>
+        </styled.div>
+        <styled.div
+          styles="
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+"
+        >
+          <div
+            className="sc-hKgILt iiApof"
+          >
+            <h1>
+              Series
+            </h1>
+            <styled.ul
+              styles="
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+"
+            >
+              <ul
+                className="sc-gsTCUz lbbSTx"
+              >
+                <styled.li
+                  key="1"
+                  styles="
+    padding: 10px;
+    &:not(:last-of-type) {
+        border-bottom: solid 2px theme.colors.marvelRed;
+    }
+"
+                >
+                  <li
+                    className="sc-dlfnbm hiNrMd"
+                  >
+                    comic
+                  </li>
+                </styled.li>
+              </ul>
+            </styled.ul>
+          </div>
+        </styled.div>
+        <styled.div
+          styles="
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+"
+        >
+          <div
+            className="sc-hKgILt iiApof"
+          >
+            <h1>
+              Stories
+            </h1>
+            <styled.ul
+              styles="
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+"
+            >
+              <ul
+                className="sc-gsTCUz lbbSTx"
+              >
+                <styled.li
+                  key="1"
+                  styles="
+    padding: 10px;
+    &:not(:last-of-type) {
+        border-bottom: solid 2px theme.colors.marvelRed;
+    }
+"
+                >
+                  <li
+                    className="sc-dlfnbm hiNrMd"
+                  >
+                    comic
+                  </li>
+                </styled.li>
+              </ul>
+            </styled.ul>
+          </div>
+        </styled.div>
+      </Grid>
+      <button
+        aria-label="Go back"
+        onClick={[MockFunction]}
+        type="button"
+      >
+        🏠
+      </button>
+    </div>
+  </styled.div>
+</Character>
+`;

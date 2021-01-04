@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Component
+    theme={
+      Object {
+        "breakpoints": Object {
+          "desktop": 1200,
+          "tabletLandscape": 1024,
+          "tabletPortrait": 768,
+        },
+        "colors": Object {
+          "darkGrey": "#151515",
+          "marvelRed": "#e62429",
+          "mediumGrey": "#202020",
+        },
+      }
+    }
+  >
+    <Memo(l) />
+    <BrowserRouter>
+      <Suspense
+        fallback={
+          <p>
+            Loading!
+          </p>
+        }
+      >
+        <Switch>
+          <Route
+            exact={true}
+            key="/"
+            path="/"
+          >
+            <lazy />
+          </Route>
+          <Route
+            exact={true}
+            key="/character/:id"
+            path="/character/:id"
+          >
+            <lazy />
+          </Route>
+        </Switch>
+      </Suspense>
+    </BrowserRouter>
+  </Component>
+</Provider>
+`;

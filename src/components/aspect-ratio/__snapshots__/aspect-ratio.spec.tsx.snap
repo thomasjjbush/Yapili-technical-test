@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AspectRatio Should produce correct styles for 56.25 1`] = `
+<styled.div
+  ratio={56.25}
+  styles="
+    padding-bottom: 56.25%;
+    position: relative;
+"
+>
+  <styled.div
+    styles="
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+"
+  >
+    Child
+  </styled.div>
+</styled.div>
+`;
+
+exports[`AspectRatio Should produce correct styles for 75 1`] = `
+<styled.div
+  ratio={75}
+  styles="
+    padding-bottom: 75%;
+    position: relative;
+"
+>
+  <styled.div
+    styles="
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+"
+  >
+    Child
+  </styled.div>
+</styled.div>
+`;
+
+exports[`AspectRatio Should produce correct styles for 100 1`] = `
+<styled.div
+  ratio={100}
+  styles="
+    padding-bottom: 100%;
+    position: relative;
+"
+>
+  <styled.div
+    styles="
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+"
+  >
+    Child
+  </styled.div>
+</styled.div>
+`;

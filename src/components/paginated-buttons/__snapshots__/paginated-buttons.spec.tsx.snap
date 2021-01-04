@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginatedButtons should match snapshot 1`] = `
+<styled.div
+  styles="
+    background-color: theme.colors.darkGrey;
+    border: solid 2px theme.colors.marvelRed;
+    border-radius: 10px;
+    display: inline-flex;
+    margin-top: 30px;
+    overflow: hidden;
+"
+>
+  <Styled(Link)
+    data-test-id="skip"
+    disabled={true}
+    styles="
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+"
+    to={
+      Object {
+        "search": "something=-4",
+      }
+    }
+  >
+    -
+    5
+  </Styled(Link)>
+  <Styled(Link)
+    $active={true}
+    data-test-id="button"
+    key="1"
+    styles="
+    background-color: theme.colors.marvelRed;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+"
+    to={
+      Object {
+        "search": "something=1",
+      }
+    }
+  >
+    1
+  </Styled(Link)>
+  <Styled(Link)
+    $active={false}
+    data-test-id="button"
+    key="2"
+    styles="
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+"
+    to={
+      Object {
+        "search": "something=2",
+      }
+    }
+  >
+    2
+  </Styled(Link)>
+  <Styled(Link)
+    $active={false}
+    data-test-id="button"
+    key="3"
+    styles="
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+"
+    to={
+      Object {
+        "search": "something=3",
+      }
+    }
+  >
+    3
+  </Styled(Link)>
+  <Styled(Link)
+    $active={false}
+    data-test-id="button"
+    key="4"
+    styles="
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+"
+    to={
+      Object {
+        "search": "something=4",
+      }
+    }
+  >
+    4
+  </Styled(Link)>
+  <Styled(Link)
+    $active={false}
+    data-test-id="button"
+    key="5"
+    styles="
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+"
+    to={
+      Object {
+        "search": "something=5",
+      }
+    }
+  >
+    5
+  </Styled(Link)>
+  <Styled(Link)
+    data-test-id="skip"
+    disabled={false}
+    styles="
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+"
+    to={
+      Object {
+        "search": "something=6",
+      }
+    }
+  >
+    +
+    5
+  </Styled(Link)>
+</styled.div>
+`;

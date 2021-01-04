@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character should match snapshot 1`] = `
+<Home>
+  <div>
+    <Grid
+      desktop={4}
+      gap={30}
+      mobile={1}
+      tablet={2}
+    >
+      <Styled(Link)
+        key="55"
+        styles="
+    background-color: theme.colors.darkGrey;
+    border-bottom: solid 5px theme.colors.marvelRed;
+    overflow: hidden;
+"
+        to="/character/55"
+      >
+        <Link
+          className="sc-bdfBwQ bWCLJs"
+          to="/character/55"
+        >
+          <AspectRatio
+            ratio={100}
+          >
+            <Image
+              extension="ext"
+              height="100%"
+              path="path"
+              width="100%"
+            >
+              Image
+            </Image>
+          </AspectRatio>
+          <styled.div
+            styles="
+    overflow: hidden;
+    padding: 20px;
+"
+          >
+            <div
+              className="sc-gsTCUz zwlLb"
+            >
+              <styled.h1
+                styles="
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+"
+              >
+                <h1
+                  className="sc-hKgILt jouoAZ"
+                >
+                  name
+                </h1>
+              </styled.h1>
+              <styled.p
+                styles="
+    margin: 20px 0 0;
+"
+              >
+                <p
+                  className="sc-dlfnbm dutTAS"
+                >
+                  description
+                </p>
+              </styled.p>
+            </div>
+          </styled.div>
+        </Link>
+      </Styled(Link)>
+    </Grid>
+    <PaginatedButtons
+      currentPage={1}
+      numberOfButtons={5}
+      numberOfPages={0}
+      skip={5}
+      to={[Function]}
+    >
+      PaginatedButtons
+    </PaginatedButtons>
+  </div>
+</Home>
+`;
